@@ -12,6 +12,8 @@
 		ADADD2E820F139CA0030C4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADADD2E620F139CA0030C4E2 /* Main.storyboard */; };
 		ADADD2EA20F139CA0030C4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADADD2E920F139CA0030C4E2 /* Assets.xcassets */; };
 		ADADD2ED20F139CA0030C4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADADD2EB20F139CA0030C4E2 /* LaunchScreen.storyboard */; };
+		ADADD2F520F144270030C4E2 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2F420F144270030C4E2 /* Calculator.swift */; };
+		ADADD2F720F1492C0030C4E2 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD2F620F1492C0030C4E2 /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ADADD2E920F139CA0030C4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADADD2EC20F139CA0030C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADADD2EE20F139CA0030C4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADADD2F420F144270030C4E2 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		ADADD2F620F1492C0030C4E2 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				ADADD2E220F139CA0030C4E2 /* AppDelegate.swift */,
 				ADADD2E420F139CA0030C4E2 /* ViewController.swift */,
 				ADADD2E620F139CA0030C4E2 /* Main.storyboard */,
+				ADADD2F420F144270030C4E2 /* Calculator.swift */,
+				ADADD2F620F1492C0030C4E2 /* Operation.swift */,
 				ADADD2E920F139CA0030C4E2 /* Assets.xcassets */,
 				ADADD2EB20F139CA0030C4E2 /* LaunchScreen.storyboard */,
 				ADADD2EE20F139CA0030C4E2 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				ADADD2E520F139CA0030C4E2 /* ViewController.swift in Sources */,
 				ADADD2E320F139CA0030C4E2 /* AppDelegate.swift in Sources */,
+				ADADD2F520F144270030C4E2 /* Calculator.swift in Sources */,
+				ADADD2F720F1492C0030C4E2 /* Operation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
