@@ -50,6 +50,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="91"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <state key="normal" title="/"/>
+                                                <connections>
+                                                    <action selector="divisionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="01A-YU-JpL"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -81,6 +84,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="91"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="*"/>
+                                                <connections>
+                                                    <action selector="multiplicationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wfI-0h-eZs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -112,6 +118,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="90.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="subtractionButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsB-H3-dlk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -160,11 +169,17 @@
                                                 <rect key="frame" x="144" y="0.0" width="72" height="91"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                                 <state key="normal" title="."/>
+                                                <connections>
+                                                    <action selector="decimalButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3CK-07-U8a"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12Q-ay-AD0">
                                                 <rect key="frame" x="216" y="0.0" width="72" height="91"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="="/>
+                                                <connections>
+                                                    <action selector="equalsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rvi-fK-j9c"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>

@@ -36,6 +36,26 @@ class ViewController: UIViewController {
         showOutput()
     }
     
+    @IBAction func subtractionButtonPressed(_ sender: UIButton) {
+        calculator.operate(.subtraction)
+        showOutput()
+    }
+    
+    @IBAction func multiplicationButtonPressed(_ sender:UIButton) {
+        calculator.operate(.multiplication)
+        showOutput()
+    }
+    
+    @IBAction func divisionButtonPressed(_ sender:UIButton) {
+        calculator.operate(.division)
+        showOutput()
+    }
+    
+    @IBAction func decimalButtonPressed(_ sender: UIButton){
+        calculator.decimal()
+        showInput()
+    }
+    
     @IBAction func digitButtonPressed(_ sender: UIButton) {
         calculator.digit(sender.tag)
         showInput()
@@ -52,6 +72,11 @@ class ViewController: UIViewController {
     @IBAction func percentButtonPressed (_ sender: UIButton){
         calculator.percent()
         showInput()
+    }
+    
+    @IBAction func equalsButtonPressed (_ sender: UIButton){
+        calculator.equals()
+        showOutput()
     }
 }
 
