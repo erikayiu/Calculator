@@ -77,7 +77,7 @@ class ViewController: UIViewController {
     
     @IBAction func equalsButtonPressed (_ sender: UIButton){
         calculator.equals()
-        showOutput()
+        showInput()
     }
 }
 

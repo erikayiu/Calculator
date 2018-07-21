@@ -178,7 +178,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="="/>
                                                 <connections>
-                                                    <action selector="equalsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rvi-fK-j9c"/>
+                                                    <action selector="equalsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1iK-of-gVd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
