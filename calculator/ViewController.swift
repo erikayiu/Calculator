@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         showInput()
+        NSLog("view controller should have loaded")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
